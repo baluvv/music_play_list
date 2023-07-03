@@ -1,0 +1,57 @@
+.track-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+}
+
+.track-img {
+  height: 100px;
+  width: 150px;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.name-genre-container {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.genre {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #3b82f6;
+  margin-top: 0px;
+}
+
+.duration-delete-container {
+  display: flex;
+  align-items: center;
+}
+
+.duration {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-right: 25px;
+}
+.delete-button {
+  border-width: 0px;
+  background-color: transparent;
+}
+.delete-icon {
+  color: #ffffff;
+  height: 18px;
+  width: 18px;
+  margin-right: 15px;
+}
